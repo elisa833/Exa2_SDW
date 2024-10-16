@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://img.freepik.com/vector-premium/personaje-dibujos-animados-graficos-vectoriales-ilustracion-tarjeta-identificacion-foto_516790-1298.jpg");
+    /*
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+}
+
+.form-control {
+    width: 80%;
+}
+
+.bi-person-circle {
+    font-size: 10rem;
+}
+
+.nombre_usuario {
+    font-size: 3rem;
+}
+
+form {
+    /* width: 70%;
+    height: 320px; */
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contenedor_usuario {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.c-datos {
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to left bottom, #22032e, #360842, #4d0c57, #660d6b, #810b7f);
+    background-repeat: no-repeat;
+}
